@@ -265,14 +265,8 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/Malolishto/">
+  <a href="https://github.com/Malolishto/fugues_site.github.io">
     <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="http://linkedin.com/USERNAME">
-    <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -290,7 +284,33 @@ $(document).ready(function () {
 </div>
 
 
-<p>I plan on including background on the problem and an introduction to the website here. I will also post introductory papers and articles about GGA and RNAi (and briefly explain them on the site).</p>
+<p>The FUGUES project aims to study the genomics of the Honey Bee (<em>Apis mellifera</em>) and the Bumble bee (<em>Bombus sp.</em>) through gene knockdown implemented via RNA interference by beneficial symbionts (<em>Snodgrasella alvi</em>) residing in the hind gut. Efforts to improve the efficiency of this project mainly focus on:<br />
+1. Engineering constructs that allow researchers more control over dsRNA production.<br />
+2. Improving assays for assessing gene silencing in bees.<br />
+3. Making FUGUES a more viable, more accessible option for EDGE researchers.<br />
+In this section, you will find resources that explain the biological and experimental processes that FUGUES relies on, as well as instructions on how to apply FUGUES to your own research and collaborate with us.</p>
+<div id="rnai" class="section level3">
+<h3>RNAi</h3>
+<p>RNA interference (RNAi) is a biological response to endogenous double-stranded RNA (dsRNA) that prevents the translation of the targeted RNA. RNAi is believed to be a defense mechanism against dsRNA viruses and pathogens, as well a process to regulate gene expression [1, 2, 3]. It has become an important tool to researchers in gene silencing, as plasmids encoding dsRNA will activate an organism’s RNAi machinery, preventing translation of the dsRNA encoded by the plasmid as well as mRNA that is complementary to the dsRNA product, effectively “silencing” the gene encoding said mRNA. By silencing a gene, researchers can then examine its true function by observing changes in the organism’s behavior.</p>
+</div>
+<div id="gga" class="section level3">
+<h3>GGA</h3>
+<p>Golden-Gate Assembly (GGA) is a standard of plasmid design by which individual plasmid “parts” are combined into a single end product plasmid with one or more transcriptional units [4] by<br />
+1.) Using PCR to create overhangs on DNA of interest (e.g., promoters, coding regions, terminators, etc.) that contain matching sequences with other parts as well as cut sites for enzymes BsmBI and BsaII.<br />
+2.) Inserting amplicons from step one via BsmBI digest into compatible dropout vectors, creating part plasmids called “entry vectors”.<br />
+3.) Enjoining multiple entry vectors via BsaI digest which, due to predetermined compatible sites, will attach to each in a certain order, creating a first stage assembly that contains one transcriptional unit.<br />
+4.) Optionally enjoining multiple transcriptional units via BsmBI digest in a second stage assembly, creating a plasmid encoding multiple operons.<br />
+Golden-Gate Assembly is the standard of plasmid assembly for FUGUES; its simplicity and versatility will allow EDGE researchers to create their own dsRNA expression casettes.</p>
+</div>
+<div id="applying-fugues-to-your-project" class="section level3">
+<h3>Applying FUGUES to Your Project</h3>
+<p>The Freshman Research Initiative (FRI) at UT Austin is currently amassing a library of recombinant <em>S. alvi</em> strains specialized to induce RNAi for specific genes. <em>How do they order S. alvi strains?</em></p>
+<p>Citations:</p>
+<p>[1] <a href="https://www.ncbi.nlm.nih.gov/probe/docs/techrnai/" class="uri">https://www.ncbi.nlm.nih.gov/probe/docs/techrnai/</a><br />
+[2] <a href="https://thebiologynotes.com/rna-interference-rnai/" class="uri">https://thebiologynotes.com/rna-interference-rnai/</a><br />
+[3] <a href="https://www.thermofisher.com/us/en/home/life-science/rnai/rna-interference-overview.html" class="uri">https://www.thermofisher.com/us/en/home/life-science/rnai/rna-interference-overview.html</a><br />
+[4] <a href="https://barricklab.org/twiki/bin/view/Lab/GoldenGateAssemblyProtocolsMainPage" class="uri">https://barricklab.org/twiki/bin/view/Lab/GoldenGateAssemblyProtocolsMainPage</a></p>
+</div>
 
 
 
